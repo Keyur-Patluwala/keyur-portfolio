@@ -11,8 +11,8 @@ export const navLinks = [
   },
   {
     id: 3,
-    name: "Education",
-    href: "#education",
+    name: "Work",
+    href: "#work",
   },
   {
     id: 4,
@@ -200,32 +200,30 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "Gyanmanjari Institute of Technology",
+    pos: "BE in Computer Engineering - 9.04 CGPA",
+    duration: "2022 - 2026",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+      "Relevant coursework – Web Programming, Software Engineering, Algorithms, Data Structures, Python for Data Science, Object Oriented Programming, Database Management System",
     icon: "/assets/framer.svg",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
-    title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
+    name: "Silver Bells Public School",
+    pos: "Higher Secondary Education (CBSE)",
+    duration: "2021 - 2022",
+    title: "Percentage:93",
+    icon: "/assets/framer.svg",
     animation: "clapping",
   },
   {
     id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
+    name: "Silver Bells Public School",
+    pos: "Secondary Education (CBSE)",
     duration: "2019 - 2020",
-    title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
+    title: "Percentage:92",
+    icon: "/assets/framer.svg",
     animation: "salute",
   },
 ];
